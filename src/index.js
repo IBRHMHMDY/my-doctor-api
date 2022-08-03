@@ -3,8 +3,7 @@ import models, {sequelize} from './models';
 import app from './app.js';
 
 sequelize.sync().then(() => {
-    app.listen(process.env.PORT, () => {
-        console.log('Server Running');
+    app.listen(process.env.PORT || 5000);
     });
 })
 
