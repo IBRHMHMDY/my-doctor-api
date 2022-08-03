@@ -4,8 +4,7 @@
   "main": "dist",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -w src --exec \"babel-node src\"",
-    "build": "node src/app"
+    "start": "nodemon -w src --exec \"babel-node src\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
